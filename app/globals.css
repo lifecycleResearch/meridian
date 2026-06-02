@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { border-color: theme("colors.brand.border"); }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-brand-bg text-ink font-sans;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3 { @apply font-serif; }
+
+  ::selection {
+    background: rgba(201, 168, 76, 0.3);
+    color: #1d2128;
+  }
+}
+
+@layer components {
+  .gold-gradient {
+    background: linear-gradient(135deg, #c9a84c, #e8c87a, #c9a84c);
+  }
+
+  .gold-text {
+    background: linear-gradient(135deg, #c9a84c, #e8c87a, #c9a84c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .card-glow {
+    box-shadow: 0 0 0 1px rgba(201, 168, 76, 0.15), 0 8px 32px rgba(0, 0, 0, 0.4);
+  }
+
+  .card-glow-active {
+    box-shadow: 0 0 0 2px rgba(201, 168, 76, 0.7), 0 8px 32px rgba(201, 168, 76, 0.15);
+  }
+
+  .btn-gold {
+    @apply gold-gradient text-white font-semibold rounded-pill
+           px-6 py-3 text-sm tracking-wider uppercase
+           hover:opacity-90 active:scale-[0.98] transition-all;
+  }
+
+  .btn-outline {
+    @apply border border-ink/20 text-ink font-semibold rounded-pill
+           px-6 py-3 text-sm tracking-wider uppercase
+           hover:bg-ink/5 active:scale-[0.98] transition-all;
+  }
+
+  .container-page {
+    @apply max-w-6xl mx-auto px-4 sm:px-6;
+  }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+}

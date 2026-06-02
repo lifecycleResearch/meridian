@@ -1,0 +1,23 @@
+# fly.toml — Meridian Client Retention Service
+# Deploy: fly launch (or fly deploy from existing app)
+
+app = "meridian-crs"
+primary_region = "iad"
+
+[build]
+  builder = "nextjs"
+
+[env]
+  PORT = "3000"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 1
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 256
