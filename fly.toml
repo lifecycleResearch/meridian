@@ -5,7 +5,6 @@ app = "meridian-crs"
 primary_region = "iad"
 
 [build]
-  builder = "nextjs"
 
 [env]
   PORT = "3000"
@@ -20,4 +19,4 @@ primary_region = "iad"
 [[vm]]
   cpu_kind = "shared"
   cpus = 1
-  memory_mb = 256
+  memory_mb = 512
