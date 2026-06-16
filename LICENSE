@@ -1,0 +1,44 @@
+© 2026 lifecycleResearch. All Rights Reserved.
+
+PROPRIETARY LICENSE - Meridian Client Retention Service
+
+GRANT OF LICENSE:
+Subject to the terms and conditions of this Agreement, lifecycleResearch grants
+Licensee a limited, non-exclusive, non-transferable license to use this software
+solely for the purposes authorized in a separate written agreement.
+
+RESTRICTIONS:
+You may not:
+- Copy, reproduce, or distribute this software without written consent
+- Reverse engineer, decompile, disassemble, or attempt to derive source code
+- Create derivative works or modifications for commercial purposes
+- Sublicense, lease, or transfer this software
+- Remove or alter any proprietary notices or labels
+
+OPEN SOURCE COMPONENTS:
+This software includes components licensed under open-source licenses:
+- Next.js 14 (MIT License)
+- React (MIT License)
+- Lucide React (MIT License)
+- Tailwind CSS (MIT License)
+
+See OPEN_SOURCE_LICENSES.md for full attribution.
+
+WHITE LABEL LICENSING:
+This software is available for white-label deployment under a separate
+commercial agreement. Contact sales@grea.site for white-label licensing terms.
+
+LIMITATION OF LIABILITY:
+TO THE FULLEST EXTENT PERMITTED BY LAW, lifecycleResearch IS NOT LIABLE FOR
+ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING
+FROM THE USE OF THIS SOFTWARE.
+
+TERMINATION:
+This license is effective until terminated. Rights terminate immediately upon
+violation of any provision herein or upon notice of termination by lifecycleResearch.
+
+GOVERNING LAW:
+This agreement shall be governed by and construed in accordance with the laws
+of the State of Delaware, without regard to its conflicts of law principles.
+
+For licensing inquiries: sales@grea.site
